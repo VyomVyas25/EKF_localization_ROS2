@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/vyom/ros2_ws/install/examples_rclcpp_cbg_executor/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/vyom/ros2_ws/src/cpp_pubsub/include/**",
+                "/home/vyom/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include/**",
+                "/home/vyom/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include/**",
+                "/home/vyom/ros2_ws/src/examples/rclcpp/wait_set/include/**",
+                "/home/vyom/ros2_ws/src/my_package/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        },
+        {
+            "name": "ROS",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

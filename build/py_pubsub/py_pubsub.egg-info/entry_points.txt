@@ -1,0 +1,8 @@
+[console_scripts]
+binary_im = py_pubsub.gnd_obj_det:main
+ekf_slam = py_pubsub.EKF_slam:main
+gd = py_pubsub.Ground_det:main
+localization = py_pubsub.EKF_localization:main
+m2C = py_pubsub.m2C:main
+slam_d = py_pubsub.ekf_slam_d:main
+

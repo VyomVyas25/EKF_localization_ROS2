@@ -1,0 +1,25 @@
+[0.770s] Invoking command in '/home/vyom/ros2_ws/build/my_launch_files': PYTHONPATH=/home/vyom/ros2_ws/build/my_launch_files/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vyom/ros2_ws/build/my_launch_files/build --no-deps symlink_data
+[1.008s] running develop
+[1.153s] running egg_info
+[1.153s] creating my_launch_files.egg-info
+[1.153s] writing my_launch_files.egg-info/PKG-INFO
+[1.154s] writing dependency_links to my_launch_files.egg-info/dependency_links.txt
+[1.154s] writing entry points to my_launch_files.egg-info/entry_points.txt
+[1.154s] writing requirements to my_launch_files.egg-info/requires.txt
+[1.154s] writing top-level names to my_launch_files.egg-info/top_level.txt
+[1.155s] writing manifest file 'my_launch_files.egg-info/SOURCES.txt'
+[1.156s] reading manifest file 'my_launch_files.egg-info/SOURCES.txt'
+[1.156s] writing manifest file 'my_launch_files.egg-info/SOURCES.txt'
+[1.158s] running build_ext
+[1.158s] Creating /home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages/my-launch-files.egg-link (link to .)
+[1.158s] 
+[1.158s] Installed /home/vyom/ros2_ws/build/my_launch_files
+[1.159s] running symlink_data
+[1.159s] creating /home/vyom/ros2_ws/install/my_launch_files/share/ament_index
+[1.159s] creating /home/vyom/ros2_ws/install/my_launch_files/share/ament_index/resource_index
+[1.159s] creating /home/vyom/ros2_ws/install/my_launch_files/share/ament_index/resource_index/packages
+[1.159s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/resource/my_launch_files -> /home/vyom/ros2_ws/install/my_launch_files/share/ament_index/resource_index/packages
+[1.159s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/package.xml -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files
+[1.159s] creating /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files/launch
+[1.159s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/launch/cylin_world.launch.py -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files/launch
+[1.159s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/launch/ekf_launch.py -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files/launch

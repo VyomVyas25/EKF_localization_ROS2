@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating my_launch_files.egg-info
+writing my_launch_files.egg-info/PKG-INFO
+writing dependency_links to my_launch_files.egg-info/dependency_links.txt
+writing entry points to my_launch_files.egg-info/entry_points.txt
+writing requirements to my_launch_files.egg-info/requires.txt
+writing top-level names to my_launch_files.egg-info/top_level.txt
+writing manifest file 'my_launch_files.egg-info/SOURCES.txt'
+reading manifest file 'my_launch_files.egg-info/SOURCES.txt'
+writing manifest file 'my_launch_files.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages/my-launch-files.egg-link (link to .)
+
+Installed /home/vyom/ros2_ws/build/my_launch_files
+running symlink_data
+creating /home/vyom/ros2_ws/install/my_launch_files/share/ament_index
+creating /home/vyom/ros2_ws/install/my_launch_files/share/ament_index/resource_index
+creating /home/vyom/ros2_ws/install/my_launch_files/share/ament_index/resource_index/packages
+symbolically linking /home/vyom/ros2_ws/build/my_launch_files/resource/my_launch_files -> /home/vyom/ros2_ws/install/my_launch_files/share/ament_index/resource_index/packages
+symbolically linking /home/vyom/ros2_ws/build/my_launch_files/package.xml -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files
+creating /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files/launch
+symbolically linking /home/vyom/ros2_ws/build/my_launch_files/launch/cylin_world.launch.py -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files/launch
+symbolically linking /home/vyom/ros2_ws/build/my_launch_files/launch/ekf_launch.py -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files/launch

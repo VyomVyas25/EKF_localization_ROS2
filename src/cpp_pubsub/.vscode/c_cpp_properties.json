@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/vyom/ros2_ws/install/p9n_test/include/**",
+        "/home/vyom/ros2_ws/install/p9n_node/include/**",
+        "/home/vyom/ros2_ws/install/p9n_example/include/**",
+        "/home/vyom/ros2_ws/install/p9n_interface/include/**",
+        "/home/vyom/install/examples_rclcpp_cbg_executor/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/vyom/ros2_ws/src/cpp_pubsub/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,2 @@
+Invoking command in '/home/vyom/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vyom/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vyom/ros2_ws/install/cpp_pubsub
+Invoked command in '/home/vyom/ros2_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vyom/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vyom/ros2_ws/install/cpp_pubsub

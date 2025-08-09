@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ef586b352be940e606e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_pubsub",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CamNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CamNode-b256f332c06b49b9fddf.json",
+					"name" : "CamNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IrcNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IrcNode-0ad59f52f22777bfd539.json",
+					"name" : "IrcNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "armNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armNode-ab548aa4810cf1a23a67.json",
+					"name" : "armNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoNode-58bf3fafe829cf0a90ad.json",
+					"name" : "autoNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "combine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-combine-be051a474ccd44233569.json",
+					"name" : "combine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_pubsub_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_pubsub_uninstall-e6fadf753be35a064805.json",
+					"name" : "cpp_pubsub_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dNode-3d318aefe6db41304b8d.json",
+					"name" : "dNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "finalNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-finalNode-8ca5ff987cdbd88d64c5.json",
+					"name" : "finalNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gpsNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gpsNode-17b8ceaf561eaaf86781.json",
+					"name" : "gpsNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ircNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ircNode-77d5e949141e7effdfa3.json",
+					"name" : "ircNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar-5ed8072e1356256b8b49.json",
+					"name" : "lidar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ps4Node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ps4Node-46c71dbb98e73966971c.json",
+					"name" : "ps4Node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pstryNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pstryNode-8af79848d5ad6da22a19.json",
+					"name" : "pstryNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tb3Node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tb3Node-376863351732a7852d43.json",
+					"name" : "tb3Node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-030fb5aa61b15f328df1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xbox_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xbox_node-d0343e23541edf7824d8.json",
+					"name" : "xbox_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vyom/ros2_ws/build/cpp_pubsub",
+		"source" : "/home/vyom/ros2_ws/src/cpp_pubsub"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

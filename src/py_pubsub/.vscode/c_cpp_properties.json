@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/vyom/install/examples_rclcpp_cbg_executor/include/**",
+        "/home/vyom/microros_ws/install/micro_ros_agent/include/**",
+        "/home/vyom/microros_ws/install/micro_ros_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/vyom/ros2_ws/src/bag_recorder_nodes/include/**",
+        "/home/vyom/ros2_ws/src/cpp_pubsub/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

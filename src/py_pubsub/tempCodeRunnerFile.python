@@ -1,0 +1,8 @@
+#write a code a print a right angled triangle
+#!/usr/bin/env python3
+i = 0
+j = 0
+for i in range(5):
+    for j in range(i + 1):
+        print("*", end="")
+    print()
