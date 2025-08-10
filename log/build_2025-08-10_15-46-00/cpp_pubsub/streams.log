@@ -1,0 +1,49 @@
+[0.023s] Invoking command in '/home/vyom/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_example:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/opt/ros/humble /usr/bin/cmake --build /home/vyom/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.312s] [  7%] Built target ps4Node
+[0.313s] [ 14%] Built target xbox_node
+[0.313s] [ 21%] Built target tb3Node
+[0.313s] [ 28%] Built target pstryNode
+[0.313s] [ 35%] Built target autoNode
+[0.313s] [ 42%] Built target gpsNode
+[0.313s] [ 50%] Built target finalNode
+[0.313s] [ 57%] Built target dNode
+[0.313s] [ 64%] Built target ircNode
+[0.313s] [ 71%] Built target armNode
+[0.313s] [ 78%] Built target IrcNode
+[0.313s] [ 85%] Built target combine
+[0.313s] [ 92%] Built target lidar
+[0.313s] [100%] Built target CamNode
+[0.548s] Invoked command in '/home/vyom/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_example:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/opt/ros/humble /usr/bin/cmake --build /home/vyom/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.557s] Invoking command in '/home/vyom/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_example:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/opt/ros/humble /usr/bin/cmake --install /home/vyom/ros2_ws/build/cpp_pubsub
+[0.564s] -- Install configuration: ""
+[0.565s] -- Execute custom install script
+[0.565s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/xbox_node
+[0.565s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/finalNode
+[0.565s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/tb3Node
+[0.565s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/ps4Node
+[0.565s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/pstryNode
+[0.565s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/autoNode
+[0.566s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/gpsNode
+[0.566s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/dNode
+[0.566s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/armNode
+[0.566s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/ircNode
+[0.566s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/IrcNode
+[0.566s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/CamNode
+[0.566s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/combine
+[0.566s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/lidar
+[0.566s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.567s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.567s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.567s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.567s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.567s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.567s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.567s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.567s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.568s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.568s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.577s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.577s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.577s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.577s] -- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.579s] Invoked command in '/home/vyom/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_example:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/opt/ros/humble /usr/bin/cmake --install /home/vyom/ros2_ws/build/cpp_pubsub
