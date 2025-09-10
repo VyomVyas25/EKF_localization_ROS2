@@ -1,4 +1,4 @@
-# EKF Localization and SLAM ROS2
+# EKF Localization ROS2
 
 ## Overview
 The EKF Localization and SLAM ROS2 repository provides an implementation of an Extended Kalman Filter (EKF) based localization and SLAM (Simultaneous Localization and Mapping) framework using ROS2. This project is designed as a modular and extendable codebase that leverages sensor fusion to accurately estimate the robot’s state and build maps of its environment.
