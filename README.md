@@ -42,8 +42,8 @@ EKF_localization_and_SLAM_ROS2/
 
 1. Clone the Repository:
 ```
-git clone https://github.com/VyomVyas25/EKF_localization_and_SLAM_ROS2.git
-cd EKF_localization_and_SLAM_ROS2
+git clone https://github.com/VyomVyas25/EKF_localization_ROS2.git
+cd EKF_localization_ROS2
 ```
 
 2. Install Dependencies:
@@ -64,12 +64,6 @@ source install/local_setup.bash
 ```
 ros2 launch my_launch_files ekf_launch.py
 ```
-
-### Launching the SLAM Module
-```
-ros2 launch ekf_localization slam.launch.py
-```
-
 ## Media
 
 To help illustrate the functionality and setup of the system, the repository includes several images and a demo video:
