@@ -5,4 +5,5 @@ gd = py_pubsub.Ground_det:main
 localization = py_pubsub.EKF_localization:main
 m2C = py_pubsub.m2C:main
 slam_d = py_pubsub.ekf_slam_d:main
+viz_node_slam = py_pubsub.viz_ekf_slam:main
 

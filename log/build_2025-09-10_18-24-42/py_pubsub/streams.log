@@ -1,0 +1,22 @@
+[3.227s] Invoking command in '/home/vyom/ros2_ws/build/py_pubsub': PYTHONPATH=/home/vyom/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vyom/ros2_ws/build/py_pubsub/build --no-deps symlink_data
+[4.688s] running develop
+[5.362s] running egg_info
+[5.364s] writing py_pubsub.egg-info/PKG-INFO
+[5.367s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[5.367s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[5.368s] writing requirements to py_pubsub.egg-info/requires.txt
+[5.371s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[5.374s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[5.380s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[5.384s] running build_ext
+[5.387s] Creating /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[5.397s] Installing binary_im script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.397s] Installing ekf_slam script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.398s] Installing gd script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.398s] Installing localization script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.399s] Installing m2C script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.399s] Installing slam_d script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.399s] 
+[5.403s] Installed /home/vyom/ros2_ws/build/py_pubsub
+[5.404s] running symlink_data
+[5.479s] Invoked command in '/home/vyom/ros2_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/vyom/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vyom/ros2_ws/build/py_pubsub/build --no-deps symlink_data

@@ -1,0 +1,641 @@
+[0.000000] (-) TimerEvent: {}
+[0.000658] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000781] (my_launch_files) JobQueued: {'identifier': 'my_launch_files', 'dependencies': OrderedDict()}
+[0.000804] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000821] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.009698] (my_launch_files) JobStarted: {'identifier': 'my_launch_files'}
+[0.019538] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.029597] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.031232] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.032480] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vyom/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/vyom/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vyom'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vyom/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/vyom/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/vyom'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/vyom'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1387'), ('SYSTEMD_EXEC_PID', '1770'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4347'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vyom/ros2_ws/install:/home/vyom/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vyom'), ('JOURNAL_STREAM', '8:13812'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vyom'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/vyom/miniconda3/condabin:/home/vyom/anaconda3/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:@/tmp/.ICE-unix/1524,unix/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', 'd7c07a898d854e86b2a28d819e0c4615'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GFSSC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/vyom/turtlebot3_ws/install/turtlebot3:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_bringup:/home/vyom/turtlebot3_ws/install/turtlebot3_node:/home/vyom/turtlebot3_ws/install/turtlebot3_navigation2:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/turtlebot3_ws/install/turtlebot3_example:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs:/home/vyom/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_description:/home/vyom/turtlebot3_ws/install/turtlebot3_cartographer:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vyom/turtlebot3_ws/install/dynamixel_sdk:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vyom/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ccfbd6ba-320f-4408-b4a6-b45ea3d71a28'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vyom/ros2_ws/build/cpp_pubsub'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/vyom/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vyom/turtlebot3_ws/build/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/vyom/turtlebot3_ws/build/turtlebot3_example:/home/vyom/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/vyom/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/vyom/ros2_ws/build/py_pubsub:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/vyom/ros2_ws/build/my_launch_files:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vyom/turtlebot3_ws/install/turtlebot3:/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_bringup:/home/vyom/turtlebot3_ws/install/turtlebot3_node:/home/vyom/turtlebot3_ws/install/turtlebot3_navigation2:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs:/home/vyom/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_description:/home/vyom/turtlebot3_ws/install/turtlebot3_cartographer:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vyom/turtlebot3_ws/install/dynamixel_sdk:/home/vyom/ros2_ws/install/cpp_pubsub:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_example:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/opt/ros/humble')]), 'shell': False}
+[0.099775] (-) TimerEvent: {}
+[0.200199] (-) TimerEvent: {}
+[0.304179] (-) TimerEvent: {}
+[0.404599] (-) TimerEvent: {}
+[0.505101] (-) TimerEvent: {}
+[0.605645] (-) TimerEvent: {}
+[0.649687] (cpp_pubsub) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/pstryNode.dir/src/ps4_try.cpp.o\x1b[0m\n'}
+[0.649968] (cpp_pubsub) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/dNode.dir/src/g2g_obs_avoidance_hardware.cpp.o\x1b[0m\n'}
+[0.650137] (cpp_pubsub) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/autoNode.dir/src/autonomous.cpp.o\x1b[0m\n'}
+[0.650281] (cpp_pubsub) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/xbox_node.dir/src/xbox_node.cpp.o\x1b[0m\n'}
+[0.650406] (cpp_pubsub) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/finalNode.dir/src/g2g_obs_avoidance_software.cpp.o\x1b[0m\n'}
+[0.650522] (cpp_pubsub) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/tb3Node.dir/src/first_node.cpp.o\x1b[0m\n'}
+[0.650636] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gpsNode.dir/src/gps.cpp.o\x1b[0m\n'}
+[0.650748] (cpp_pubsub) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ps4Node.dir/src/ps4.cpp.o\x1b[0m\n'}
+[0.705774] (-) TimerEvent: {}
+[0.806152] (-) TimerEvent: {}
+[0.909337] (-) TimerEvent: {}
+[1.015201] (-) TimerEvent: {}
+[1.115647] (-) TimerEvent: {}
+[1.216126] (-) TimerEvent: {}
+[1.316590] (-) TimerEvent: {}
+[1.417056] (-) TimerEvent: {}
+[1.517591] (-) TimerEvent: {}
+[1.618063] (-) TimerEvent: {}
+[1.721237] (-) TimerEvent: {}
+[1.821760] (-) TimerEvent: {}
+[1.923395] (-) TimerEvent: {}
+[2.023855] (-) TimerEvent: {}
+[2.128193] (-) TimerEvent: {}
+[2.228656] (-) TimerEvent: {}
+[2.329081] (-) TimerEvent: {}
+[2.429598] (-) TimerEvent: {}
+[2.530145] (-) TimerEvent: {}
+[2.633334] (-) TimerEvent: {}
+[2.733937] (-) TimerEvent: {}
+[2.834561] (-) TimerEvent: {}
+[2.935153] (-) TimerEvent: {}
+[3.035759] (-) TimerEvent: {}
+[3.142427] (-) TimerEvent: {}
+[3.190248] (my_launch_files) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vyom/ros2_ws/build/my_launch_files/build', '--no-deps', 'symlink_data'], 'cwd': '/home/vyom/ros2_ws/build/my_launch_files', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'vyom', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vyom/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/vyom/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/vyom', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vyom', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1387', 'SYSTEMD_EXEC_PID': '1770', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4347', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vyom/ros2_ws/install:/home/vyom/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vyom', 'JOURNAL_STREAM': '8:13812', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vyom', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/vyom/miniconda3/condabin:/home/vyom/anaconda3/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:@/tmp/.ICE-unix/1524,unix/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:/tmp/.ICE-unix/1524', 'INVOCATION_ID': 'd7c07a898d854e86b2a28d819e0c4615', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GFSSC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/vyom/turtlebot3_ws/install/turtlebot3:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_bringup:/home/vyom/turtlebot3_ws/install/turtlebot3_node:/home/vyom/turtlebot3_ws/install/turtlebot3_navigation2:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/turtlebot3_ws/install/turtlebot3_example:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs:/home/vyom/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_description:/home/vyom/turtlebot3_ws/install/turtlebot3_cartographer:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vyom/turtlebot3_ws/install/dynamixel_sdk:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/ros2_ws/install/cpp_pubsub:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/vyom/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:ccfbd6ba-320f-4408-b4a6-b45ea3d71a28', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vyom/ros2_ws/build/my_launch_files', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/vyom/miniconda3/bin/conda', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vyom/ros2_ws/build/my_launch_files/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:/home/vyom/turtlebot3_ws/build/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/vyom/turtlebot3_ws/build/turtlebot3_example:/home/vyom/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/vyom/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/vyom/ros2_ws/build/py_pubsub:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/vyom/ros2_ws/build/my_launch_files:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vyom/turtlebot3_ws/install/turtlebot3:/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_bringup:/home/vyom/turtlebot3_ws/install/turtlebot3_node:/home/vyom/turtlebot3_ws/install/turtlebot3_navigation2:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs:/home/vyom/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_description:/home/vyom/turtlebot3_ws/install/turtlebot3_cartographer:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vyom/turtlebot3_ws/install/dynamixel_sdk:/home/vyom/ros2_ws/install/cpp_pubsub'}, 'shell': False}
+[3.245277] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vyom/ros2_ws/build/py_pubsub/build', '--no-deps', 'symlink_data'], 'cwd': '/home/vyom/ros2_ws/build/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'vyom', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vyom/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/vyom/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/vyom', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/vyom', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1387', 'SYSTEMD_EXEC_PID': '1770', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4347', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vyom/ros2_ws/install:/home/vyom/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vyom', 'JOURNAL_STREAM': '8:13812', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vyom', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/vyom/miniconda3/condabin:/home/vyom/anaconda3/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:@/tmp/.ICE-unix/1524,unix/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:/tmp/.ICE-unix/1524', 'INVOCATION_ID': 'd7c07a898d854e86b2a28d819e0c4615', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GFSSC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/vyom/turtlebot3_ws/install/turtlebot3:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_bringup:/home/vyom/turtlebot3_ws/install/turtlebot3_node:/home/vyom/turtlebot3_ws/install/turtlebot3_navigation2:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/turtlebot3_ws/install/turtlebot3_example:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs:/home/vyom/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_description:/home/vyom/turtlebot3_ws/install/turtlebot3_cartographer:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vyom/turtlebot3_ws/install/dynamixel_sdk:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/ros2_ws/install/cpp_pubsub:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/vyom/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:ccfbd6ba-320f-4408-b4a6-b45ea3d71a28', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vyom/ros2_ws/build/py_pubsub', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/vyom/miniconda3/bin/conda', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vyom/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/vyom/turtlebot3_ws/build/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/vyom/turtlebot3_ws/build/turtlebot3_example:/home/vyom/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/vyom/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/vyom/ros2_ws/build/py_pubsub:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/vyom/ros2_ws/build/my_launch_files:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vyom/turtlebot3_ws/install/turtlebot3:/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_bringup:/home/vyom/turtlebot3_ws/install/turtlebot3_node:/home/vyom/turtlebot3_ws/install/turtlebot3_navigation2:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs:/home/vyom/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_description:/home/vyom/turtlebot3_ws/install/turtlebot3_cartographer:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vyom/turtlebot3_ws/install/dynamixel_sdk:/home/vyom/ros2_ws/install/cpp_pubsub'}, 'shell': False}
+[3.247007] (-) TimerEvent: {}
+[3.349960] (-) TimerEvent: {}
+[3.451311] (-) TimerEvent: {}
+[3.551866] (-) TimerEvent: {}
+[3.655313] (-) TimerEvent: {}
+[3.755733] (-) TimerEvent: {}
+[3.856185] (-) TimerEvent: {}
+[3.959262] (-) TimerEvent: {}
+[4.059790] (-) TimerEvent: {}
+[4.160198] (-) TimerEvent: {}
+[4.265201] (-) TimerEvent: {}
+[4.365663] (-) TimerEvent: {}
+[4.414540] (my_launch_files) StdoutLine: {'line': b'running develop\n'}
+[4.465794] (-) TimerEvent: {}
+[4.570198] (-) TimerEvent: {}
+[4.670644] (-) TimerEvent: {}
+[4.707742] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[4.770772] (-) TimerEvent: {}
+[4.871205] (-) TimerEvent: {}
+[4.971667] (-) TimerEvent: {}
+[5.072482] (-) TimerEvent: {}
+[5.173000] (-) TimerEvent: {}
+[5.175404] (my_launch_files) StdoutLine: {'line': b'running egg_info\n'}
+[5.180868] (my_launch_files) StdoutLine: {'line': b'writing my_launch_files.egg-info/PKG-INFO\n'}
+[5.181765] (my_launch_files) StdoutLine: {'line': b'writing dependency_links to my_launch_files.egg-info/dependency_links.txt\n'}
+[5.182536] (my_launch_files) StdoutLine: {'line': b'writing entry points to my_launch_files.egg-info/entry_points.txt\n'}
+[5.183212] (my_launch_files) StdoutLine: {'line': b'writing requirements to my_launch_files.egg-info/requires.txt\n'}
+[5.184819] (my_launch_files) StdoutLine: {'line': b'writing top-level names to my_launch_files.egg-info/top_level.txt\n'}
+[5.191509] (my_launch_files) StdoutLine: {'line': b"reading manifest file 'my_launch_files.egg-info/SOURCES.txt'\n"}
+[5.197687] (my_launch_files) StdoutLine: {'line': b"writing manifest file 'my_launch_files.egg-info/SOURCES.txt'\n"}
+[5.207337] (my_launch_files) StdoutLine: {'line': b'running build_ext\n'}
+[5.207681] (my_launch_files) StdoutLine: {'line': b'Creating /home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages/my-launch-files.egg-link (link to .)\n'}
+[5.211214] (my_launch_files) StdoutLine: {'line': b'\n'}
+[5.211527] (my_launch_files) StdoutLine: {'line': b'Installed /home/vyom/ros2_ws/build/my_launch_files\n'}
+[5.211731] (my_launch_files) StdoutLine: {'line': b'running symlink_data\n'}
+[5.278198] (-) TimerEvent: {}
+[5.362353] (my_launch_files) CommandEnded: {'returncode': 0}
+[5.378303] (-) TimerEvent: {}
+[5.381843] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[5.383137] (py_pubsub) StdoutLine: {'line': b'writing py_pubsub.egg-info/PKG-INFO\n'}
+[5.384790] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to py_pubsub.egg-info/dependency_links.txt\n'}
+[5.386599] (py_pubsub) StdoutLine: {'line': b'writing entry points to py_pubsub.egg-info/entry_points.txt\n'}
+[5.387191] (py_pubsub) StdoutLine: {'line': b'writing requirements to py_pubsub.egg-info/requires.txt\n'}
+[5.390526] (py_pubsub) StdoutLine: {'line': b'writing top-level names to py_pubsub.egg-info/top_level.txt\n'}
+[5.393753] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.399735] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.403426] (py_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[5.405945] (py_pubsub) StdoutLine: {'line': b'Creating /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)\n'}
+[5.416353] (py_pubsub) StdoutLine: {'line': b'Installing binary_im script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.416723] (py_pubsub) StdoutLine: {'line': b'Installing ekf_slam script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.417007] (py_pubsub) StdoutLine: {'line': b'Installing gd script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.417705] (py_pubsub) StdoutLine: {'line': b'Installing localization script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.418008] (py_pubsub) StdoutLine: {'line': b'Installing m2C script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.418220] (py_pubsub) StdoutLine: {'line': b'Installing slam_d script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.418388] (py_pubsub) StdoutLine: {'line': b'\n'}
+[5.418584] (py_pubsub) StdoutLine: {'line': b'Installed /home/vyom/ros2_ws/build/py_pubsub\n'}
+[5.423223] (py_pubsub) StdoutLine: {'line': b'running symlink_data\n'}
+[5.436436] (my_launch_files) JobEnded: {'identifier': 'my_launch_files', 'rc': 0}
+[5.478482] (-) TimerEvent: {}
+[5.496953] (py_pubsub) CommandEnded: {'returncode': 0}
+[5.552748] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[5.578615] (-) TimerEvent: {}
+[5.679988] (-) TimerEvent: {}
+[5.782214] (-) TimerEvent: {}
+[5.882692] (-) TimerEvent: {}
+[5.983248] (-) TimerEvent: {}
+[6.083726] (-) TimerEvent: {}
+[6.184511] (-) TimerEvent: {}
+[6.288207] (-) TimerEvent: {}
+[6.388672] (-) TimerEvent: {}
+[6.489105] (-) TimerEvent: {}
+[6.589572] (-) TimerEvent: {}
+[6.689993] (-) TimerEvent: {}
+[6.790471] (-) TimerEvent: {}
+[6.890995] (-) TimerEvent: {}
+[6.991474] (-) TimerEvent: {}
+[7.091933] (-) TimerEvent: {}
+[7.195439] (-) TimerEvent: {}
+[7.296035] (-) TimerEvent: {}
+[7.396651] (-) TimerEvent: {}
+[7.497277] (-) TimerEvent: {}
+[7.597827] (-) TimerEvent: {}
+[7.702206] (-) TimerEvent: {}
+[7.802628] (-) TimerEvent: {}
+[7.903102] (-) TimerEvent: {}
+[8.003586] (-) TimerEvent: {}
+[8.104045] (-) TimerEvent: {}
+[8.204516] (-) TimerEvent: {}
+[8.304969] (-) TimerEvent: {}
+[8.405468] (-) TimerEvent: {}
+[8.509405] (-) TimerEvent: {}
+[8.609864] (-) TimerEvent: {}
+[8.710326] (-) TimerEvent: {}
+[8.810798] (-) TimerEvent: {}
+[8.911275] (-) TimerEvent: {}
+[9.011741] (-) TimerEvent: {}
+[9.112225] (-) TimerEvent: {}
+[9.212726] (-) TimerEvent: {}
+[9.314353] (-) TimerEvent: {}
+[9.414794] (-) TimerEvent: {}
+[9.515210] (-) TimerEvent: {}
+[9.616386] (-) TimerEvent: {}
+[9.716852] (-) TimerEvent: {}
+[9.819402] (-) TimerEvent: {}
+[9.919895] (-) TimerEvent: {}
+[10.020380] (-) TimerEvent: {}
+[10.121812] (-) TimerEvent: {}
+[10.222292] (-) TimerEvent: {}
+[10.326438] (-) TimerEvent: {}
+[10.426983] (-) TimerEvent: {}
+[10.527521] (-) TimerEvent: {}
+[10.628041] (-) TimerEvent: {}
+[10.728555] (-) TimerEvent: {}
+[10.829027] (-) TimerEvent: {}
+[10.929843] (-) TimerEvent: {}
+[11.030328] (-) TimerEvent: {}
+[11.133204] (-) TimerEvent: {}
+[11.233629] (-) TimerEvent: {}
+[11.334216] (-) TimerEvent: {}
+[11.434664] (-) TimerEvent: {}
+[11.535081] (-) TimerEvent: {}
+[11.635736] (-) TimerEvent: {}
+[11.737371] (-) TimerEvent: {}
+[11.838695] (-) TimerEvent: {}
+[11.939278] (-) TimerEvent: {}
+[12.041211] (-) TimerEvent: {}
+[12.141659] (-) TimerEvent: {}
+[12.245222] (-) TimerEvent: {}
+[12.349210] (-) TimerEvent: {}
+[12.453201] (-) TimerEvent: {}
+[12.553596] (-) TimerEvent: {}
+[12.654017] (-) TimerEvent: {}
+[12.756226] (-) TimerEvent: {}
+[12.859214] (-) TimerEvent: {}
+[12.959634] (-) TimerEvent: {}
+[13.060067] (-) TimerEvent: {}
+[13.161197] (-) TimerEvent: {}
+[13.263986] (-) TimerEvent: {}
+[13.368215] (-) TimerEvent: {}
+[13.468811] (-) TimerEvent: {}
+[13.569217] (-) TimerEvent: {}
+[13.669654] (-) TimerEvent: {}
+[13.770103] (-) TimerEvent: {}
+[13.870556] (-) TimerEvent: {}
+[13.970988] (-) TimerEvent: {}
+[14.071454] (-) TimerEvent: {}
+[14.172998] (-) TimerEvent: {}
+[14.280210] (-) TimerEvent: {}
+[14.380651] (-) TimerEvent: {}
+[14.481995] (-) TimerEvent: {}
+[14.595654] (-) TimerEvent: {}
+[14.696214] (-) TimerEvent: {}
+[14.796790] (-) TimerEvent: {}
+[14.897391] (-) TimerEvent: {}
+[14.997881] (-) TimerEvent: {}
+[15.098448] (-) TimerEvent: {}
+[15.202214] (-) TimerEvent: {}
+[15.302807] (-) TimerEvent: {}
+[15.407218] (-) TimerEvent: {}
+[15.507637] (-) TimerEvent: {}
+[15.608631] (-) TimerEvent: {}
+[15.712836] (-) TimerEvent: {}
+[15.818673] (-) TimerEvent: {}
+[15.922719] (-) TimerEvent: {}
+[16.023213] (-) TimerEvent: {}
+[16.123815] (-) TimerEvent: {}
+[16.224424] (-) TimerEvent: {}
+[16.325035] (-) TimerEvent: {}
+[16.425484] (-) TimerEvent: {}
+[16.528390] (-) TimerEvent: {}
+[16.639193] (-) TimerEvent: {}
+[16.739660] (-) TimerEvent: {}
+[16.840149] (-) TimerEvent: {}
+[16.941246] (-) TimerEvent: {}
+[17.041723] (-) TimerEvent: {}
+[17.142203] (-) TimerEvent: {}
+[17.243224] (-) TimerEvent: {}
+[17.357217] (-) TimerEvent: {}
+[17.457713] (-) TimerEvent: {}
+[17.560222] (-) TimerEvent: {}
+[17.660700] (-) TimerEvent: {}
+[17.761739] (-) TimerEvent: {}
+[17.865270] (-) TimerEvent: {}
+[17.965688] (-) TimerEvent: {}
+[18.066107] (-) TimerEvent: {}
+[18.166575] (-) TimerEvent: {}
+[18.267009] (-) TimerEvent: {}
+[18.370204] (-) TimerEvent: {}
+[18.470638] (-) TimerEvent: {}
+[18.571213] (-) TimerEvent: {}
+[18.678227] (-) TimerEvent: {}
+[18.783046] (-) TimerEvent: {}
+[18.883494] (-) TimerEvent: {}
+[18.984362] (-) TimerEvent: {}
+[19.088397] (-) TimerEvent: {}
+[19.189379] (-) TimerEvent: {}
+[19.289812] (-) TimerEvent: {}
+[19.390309] (-) TimerEvent: {}
+[19.490769] (-) TimerEvent: {}
+[19.591217] (-) TimerEvent: {}
+[19.691653] (-) TimerEvent: {}
+[19.792145] (-) TimerEvent: {}
+[19.892628] (-) TimerEvent: {}
+[19.994399] (-) TimerEvent: {}
+[20.094843] (-) TimerEvent: {}
+[20.195345] (-) TimerEvent: {}
+[20.299490] (-) TimerEvent: {}
+[20.400029] (-) TimerEvent: {}
+[20.500535] (-) TimerEvent: {}
+[20.601048] (-) TimerEvent: {}
+[20.701470] (-) TimerEvent: {}
+[20.801968] (-) TimerEvent: {}
+[20.902484] (-) TimerEvent: {}
+[21.003002] (-) TimerEvent: {}
+[21.103552] (-) TimerEvent: {}
+[21.207336] (-) TimerEvent: {}
+[21.307760] (-) TimerEvent: {}
+[21.408277] (-) TimerEvent: {}
+[21.508692] (-) TimerEvent: {}
+[21.609095] (-) TimerEvent: {}
+[21.709555] (-) TimerEvent: {}
+[21.810037] (-) TimerEvent: {}
+[21.834125] (cpp_pubsub) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX executable ps4Node\x1b[0m\n'}
+[21.912207] (-) TimerEvent: {}
+[22.012646] (-) TimerEvent: {}
+[22.113152] (-) TimerEvent: {}
+[22.213627] (-) TimerEvent: {}
+[22.314188] (-) TimerEvent: {}
+[22.349242] (cpp_pubsub) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX executable gpsNode\x1b[0m\n'}
+[22.414327] (-) TimerEvent: {}
+[22.514720] (-) TimerEvent: {}
+[22.615301] (-) TimerEvent: {}
+[22.715853] (-) TimerEvent: {}
+[22.816918] (-) TimerEvent: {}
+[22.922212] (-) TimerEvent: {}
+[22.992656] (cpp_pubsub) StdoutLine: {'line': b'[ 35%] Built target ps4Node\n'}
+[23.022338] (-) TimerEvent: {}
+[23.065742] (cpp_pubsub) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/armNode.dir/src/arm.cpp.o\x1b[0m\n'}
+[23.122468] (-) TimerEvent: {}
+[23.222878] (-) TimerEvent: {}
+[23.323304] (-) TimerEvent: {}
+[23.423731] (-) TimerEvent: {}
+[23.501221] (cpp_pubsub) StdoutLine: {'line': b'[ 39%] Built target gpsNode\n'}
+[23.523859] (-) TimerEvent: {}
+[23.539693] (cpp_pubsub) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable pstryNode\x1b[0m\n'}
+[23.564600] (cpp_pubsub) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ircNode.dir/src/autex.cpp.o\x1b[0m\n'}
+[23.623999] (-) TimerEvent: {}
+[23.724536] (-) TimerEvent: {}
+[23.825226] (-) TimerEvent: {}
+[23.927208] (-) TimerEvent: {}
+[24.027736] (-) TimerEvent: {}
+[24.091147] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable xbox_node\x1b[0m\n'}
+[24.127859] (-) TimerEvent: {}
+[24.228280] (-) TimerEvent: {}
+[24.329218] (-) TimerEvent: {}
+[24.431221] (-) TimerEvent: {}
+[24.531730] (-) TimerEvent: {}
+[24.571956] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target pstryNode\n'}
+[24.631868] (-) TimerEvent: {}
+[24.635576] (cpp_pubsub) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/IrcNode.dir/src/autex_hardware.cpp.o\x1b[0m\n'}
+[24.732083] (-) TimerEvent: {}
+[24.832524] (-) TimerEvent: {}
+[24.934404] (-) TimerEvent: {}
+[25.034880] (-) TimerEvent: {}
+[25.135315] (-) TimerEvent: {}
+[25.144424] (cpp_pubsub) StdoutLine: {'line': b'[ 53%] Built target xbox_node\n'}
+[25.216152] (cpp_pubsub) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/CamNode.dir/src/3d_cam.cpp.o\x1b[0m\n'}
+[25.235443] (-) TimerEvent: {}
+[25.335883] (-) TimerEvent: {}
+[25.439407] (-) TimerEvent: {}
+[25.539833] (-) TimerEvent: {}
+[25.640285] (-) TimerEvent: {}
+[25.740727] (-) TimerEvent: {}
+[25.841198] (-) TimerEvent: {}
+[25.941959] (-) TimerEvent: {}
+[26.042407] (-) TimerEvent: {}
+[26.143376] (-) TimerEvent: {}
+[26.247220] (-) TimerEvent: {}
+[26.347671] (-) TimerEvent: {}
+[26.448124] (-) TimerEvent: {}
+[26.548745] (-) TimerEvent: {}
+[26.649199] (-) TimerEvent: {}
+[26.749659] (-) TimerEvent: {}
+[26.850132] (-) TimerEvent: {}
+[26.950592] (-) TimerEvent: {}
+[27.051057] (-) TimerEvent: {}
+[27.153406] (-) TimerEvent: {}
+[27.253855] (-) TimerEvent: {}
+[27.354341] (-) TimerEvent: {}
+[27.454823] (-) TimerEvent: {}
+[27.558346] (-) TimerEvent: {}
+[27.658789] (-) TimerEvent: {}
+[27.759235] (-) TimerEvent: {}
+[27.859693] (-) TimerEvent: {}
+[27.960169] (-) TimerEvent: {}
+[28.060739] (-) TimerEvent: {}
+[28.161196] (-) TimerEvent: {}
+[28.261632] (-) TimerEvent: {}
+[28.365418] (-) TimerEvent: {}
+[28.465899] (-) TimerEvent: {}
+[28.566419] (-) TimerEvent: {}
+[28.666851] (-) TimerEvent: {}
+[28.767329] (-) TimerEvent: {}
+[28.867770] (-) TimerEvent: {}
+[28.968215] (-) TimerEvent: {}
+[29.068639] (-) TimerEvent: {}
+[29.171204] (-) TimerEvent: {}
+[29.271614] (-) TimerEvent: {}
+[29.372042] (-) TimerEvent: {}
+[29.472467] (-) TimerEvent: {}
+[29.572910] (-) TimerEvent: {}
+[29.674875] (-) TimerEvent: {}
+[29.775302] (-) TimerEvent: {}
+[29.875733] (-) TimerEvent: {}
+[29.976176] (-) TimerEvent: {}
+[30.078342] (-) TimerEvent: {}
+[30.178857] (-) TimerEvent: {}
+[30.279299] (-) TimerEvent: {}
+[30.379730] (-) TimerEvent: {}
+[30.483212] (-) TimerEvent: {}
+[30.583633] (-) TimerEvent: {}
+[30.684057] (-) TimerEvent: {}
+[30.784499] (-) TimerEvent: {}
+[30.884960] (-) TimerEvent: {}
+[30.985421] (-) TimerEvent: {}
+[30.988285] (cpp_pubsub) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable autoNode\x1b[0m\n'}
+[31.085563] (-) TimerEvent: {}
+[31.186741] (-) TimerEvent: {}
+[31.291239] (-) TimerEvent: {}
+[31.391959] (-) TimerEvent: {}
+[31.493545] (-) TimerEvent: {}
+[31.594248] (-) TimerEvent: {}
+[31.694831] (-) TimerEvent: {}
+[31.727249] (cpp_pubsub) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable tb3Node\x1b[0m\n'}
+[31.794971] (-) TimerEvent: {}
+[31.895464] (-) TimerEvent: {}
+[31.998223] (-) TimerEvent: {}
+[32.007904] (cpp_pubsub) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX executable finalNode\x1b[0m\n'}
+[32.098399] (-) TimerEvent: {}
+[32.198951] (-) TimerEvent: {}
+[32.299509] (-) TimerEvent: {}
+[32.402240] (-) TimerEvent: {}
+[32.502857] (-) TimerEvent: {}
+[32.603506] (-) TimerEvent: {}
+[32.705232] (-) TimerEvent: {}
+[32.787803] (cpp_pubsub) StdoutLine: {'line': b'[ 67%] Built target autoNode\n'}
+[32.805388] (-) TimerEvent: {}
+[32.858255] (cpp_pubsub) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/combine.dir/src/combined_drive_arm.cpp.o\x1b[0m\n'}
+[32.905543] (-) TimerEvent: {}
+[33.007197] (-) TimerEvent: {}
+[33.107586] (-) TimerEvent: {}
+[33.208012] (-) TimerEvent: {}
+[33.312213] (-) TimerEvent: {}
+[33.412635] (-) TimerEvent: {}
+[33.435821] (cpp_pubsub) StdoutLine: {'line': b'[ 71%] Built target tb3Node\n'}
+[33.506005] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o\x1b[0m\n'}
+[33.512798] (-) TimerEvent: {}
+[33.613267] (-) TimerEvent: {}
+[33.713677] (-) TimerEvent: {}
+[33.715678] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target finalNode\n'}
+[33.813829] (-) TimerEvent: {}
+[33.916253] (-) TimerEvent: {}
+[33.994982] (cpp_pubsub) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable armNode\x1b[0m\n'}
+[34.016828] (-) TimerEvent: {}
+[34.118225] (-) TimerEvent: {}
+[34.218756] (-) TimerEvent: {}
+[34.327444] (-) TimerEvent: {}
+[34.427918] (-) TimerEvent: {}
+[34.514761] (cpp_pubsub) StdoutLine: {'line': b'[ 78%] Built target armNode\n'}
+[34.528049] (-) TimerEvent: {}
+[34.628907] (-) TimerEvent: {}
+[34.730059] (-) TimerEvent: {}
+[34.830564] (-) TimerEvent: {}
+[34.931030] (-) TimerEvent: {}
+[35.031529] (-) TimerEvent: {}
+[35.131942] (-) TimerEvent: {}
+[35.232381] (-) TimerEvent: {}
+[35.332846] (-) TimerEvent: {}
+[35.433292] (-) TimerEvent: {}
+[35.533725] (-) TimerEvent: {}
+[35.634189] (-) TimerEvent: {}
+[35.734638] (-) TimerEvent: {}
+[35.835097] (-) TimerEvent: {}
+[35.935529] (-) TimerEvent: {}
+[36.035981] (-) TimerEvent: {}
+[36.136452] (-) TimerEvent: {}
+[36.236868] (-) TimerEvent: {}
+[36.337313] (-) TimerEvent: {}
+[36.437941] (-) TimerEvent: {}
+[36.538398] (-) TimerEvent: {}
+[36.638816] (-) TimerEvent: {}
+[36.739241] (-) TimerEvent: {}
+[36.839658] (-) TimerEvent: {}
+[36.940059] (-) TimerEvent: {}
+[37.040514] (-) TimerEvent: {}
+[37.140971] (-) TimerEvent: {}
+[37.241414] (-) TimerEvent: {}
+[37.341834] (-) TimerEvent: {}
+[37.442265] (-) TimerEvent: {}
+[37.542715] (-) TimerEvent: {}
+[37.643143] (-) TimerEvent: {}
+[37.743582] (-) TimerEvent: {}
+[37.844055] (-) TimerEvent: {}
+[37.944552] (-) TimerEvent: {}
+[38.045000] (-) TimerEvent: {}
+[38.145433] (-) TimerEvent: {}
+[38.245997] (-) TimerEvent: {}
+[38.348654] (-) TimerEvent: {}
+[38.449107] (-) TimerEvent: {}
+[38.549556] (-) TimerEvent: {}
+[38.560430] (cpp_pubsub) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable dNode\x1b[0m\n'}
+[38.650052] (-) TimerEvent: {}
+[38.751205] (-) TimerEvent: {}
+[38.853745] (-) TimerEvent: {}
+[38.954416] (-) TimerEvent: {}
+[39.056239] (-) TimerEvent: {}
+[39.159319] (-) TimerEvent: {}
+[39.259955] (-) TimerEvent: {}
+[39.360530] (-) TimerEvent: {}
+[39.460992] (-) TimerEvent: {}
+[39.561460] (-) TimerEvent: {}
+[39.661945] (-) TimerEvent: {}
+[39.762379] (-) TimerEvent: {}
+[39.862804] (-) TimerEvent: {}
+[39.963223] (-) TimerEvent: {}
+[40.063657] (-) TimerEvent: {}
+[40.164077] (-) TimerEvent: {}
+[40.264538] (-) TimerEvent: {}
+[40.364998] (-) TimerEvent: {}
+[40.437916] (cpp_pubsub) StdoutLine: {'line': b'[ 82%] Built target dNode\n'}
+[40.465156] (-) TimerEvent: {}
+[40.565562] (-) TimerEvent: {}
+[40.665963] (-) TimerEvent: {}
+[40.766376] (-) TimerEvent: {}
+[40.866771] (-) TimerEvent: {}
+[40.967200] (-) TimerEvent: {}
+[41.067607] (-) TimerEvent: {}
+[41.168019] (-) TimerEvent: {}
+[41.268891] (-) TimerEvent: {}
+[41.369305] (-) TimerEvent: {}
+[41.469725] (-) TimerEvent: {}
+[41.570161] (-) TimerEvent: {}
+[41.670578] (-) TimerEvent: {}
+[41.770983] (-) TimerEvent: {}
+[41.871396] (-) TimerEvent: {}
+[41.971829] (-) TimerEvent: {}
+[42.072235] (-) TimerEvent: {}
+[42.172661] (-) TimerEvent: {}
+[42.273043] (-) TimerEvent: {}
+[42.373544] (-) TimerEvent: {}
+[42.473951] (-) TimerEvent: {}
+[42.574360] (-) TimerEvent: {}
+[42.674758] (-) TimerEvent: {}
+[42.775186] (-) TimerEvent: {}
+[42.875575] (-) TimerEvent: {}
+[42.975959] (-) TimerEvent: {}
+[43.076366] (-) TimerEvent: {}
+[43.176744] (-) TimerEvent: {}
+[43.277167] (-) TimerEvent: {}
+[43.377564] (-) TimerEvent: {}
+[43.477958] (-) TimerEvent: {}
+[43.578365] (-) TimerEvent: {}
+[43.678782] (-) TimerEvent: {}
+[43.779174] (-) TimerEvent: {}
+[43.879567] (-) TimerEvent: {}
+[43.980099] (-) TimerEvent: {}
+[44.080501] (-) TimerEvent: {}
+[44.180889] (-) TimerEvent: {}
+[44.281278] (-) TimerEvent: {}
+[44.381670] (-) TimerEvent: {}
+[44.482073] (-) TimerEvent: {}
+[44.582486] (-) TimerEvent: {}
+[44.682875] (-) TimerEvent: {}
+[44.783299] (-) TimerEvent: {}
+[44.883702] (-) TimerEvent: {}
+[44.984133] (-) TimerEvent: {}
+[45.084558] (-) TimerEvent: {}
+[45.184950] (-) TimerEvent: {}
+[45.285368] (-) TimerEvent: {}
+[45.385894] (-) TimerEvent: {}
+[45.486330] (-) TimerEvent: {}
+[45.586717] (-) TimerEvent: {}
+[45.687159] (-) TimerEvent: {}
+[45.787584] (-) TimerEvent: {}
+[45.887991] (-) TimerEvent: {}
+[45.988384] (-) TimerEvent: {}
+[45.988686] (cpp_pubsub) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable CamNode\x1b[0m\n'}
+[46.088530] (-) TimerEvent: {}
+[46.188966] (-) TimerEvent: {}
+[46.289389] (-) TimerEvent: {}
+[46.389784] (-) TimerEvent: {}
+[46.490200] (-) TimerEvent: {}
+[46.590685] (-) TimerEvent: {}
+[46.680673] (cpp_pubsub) StdoutLine: {'line': b'[ 85%] Built target CamNode\n'}
+[46.690812] (-) TimerEvent: {}
+[46.763950] (cpp_pubsub) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable combine\x1b[0m\n'}
+[46.790950] (-) TimerEvent: {}
+[46.862309] (cpp_pubsub) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable IrcNode\x1b[0m\n'}
+[46.891100] (-) TimerEvent: {}
+[46.991603] (-) TimerEvent: {}
+[47.092096] (-) TimerEvent: {}
+[47.192624] (-) TimerEvent: {}
+[47.293108] (-) TimerEvent: {}
+[47.393470] (-) TimerEvent: {}
+[47.493838] (-) TimerEvent: {}
+[47.573781] (cpp_pubsub) StdoutLine: {'line': b'[ 92%] Built target combine\n'}
+[47.593964] (-) TimerEvent: {}
+[47.694365] (-) TimerEvent: {}
+[47.794756] (-) TimerEvent: {}
+[47.877213] (cpp_pubsub) StdoutLine: {'line': b'[ 92%] Built target IrcNode\n'}
+[47.894886] (-) TimerEvent: {}
+[47.995291] (-) TimerEvent: {}
+[48.095650] (-) TimerEvent: {}
+[48.188972] (cpp_pubsub) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable lidar\x1b[0m\n'}
+[48.195789] (-) TimerEvent: {}
+[48.296162] (-) TimerEvent: {}
+[48.396552] (-) TimerEvent: {}
+[48.496941] (-) TimerEvent: {}
+[48.597334] (-) TimerEvent: {}
+[48.697718] (-) TimerEvent: {}
+[48.779608] (cpp_pubsub) StdoutLine: {'line': b'[ 96%] Built target lidar\n'}
+[48.797839] (-) TimerEvent: {}
+[48.898196] (-) TimerEvent: {}
+[48.998554] (-) TimerEvent: {}
+[49.098913] (-) TimerEvent: {}
+[49.199273] (-) TimerEvent: {}
+[49.299617] (-) TimerEvent: {}
+[49.399959] (-) TimerEvent: {}
+[49.500308] (-) TimerEvent: {}
+[49.600658] (-) TimerEvent: {}
+[49.701034] (-) TimerEvent: {}
+[49.801425] (-) TimerEvent: {}
+[49.901871] (-) TimerEvent: {}
+[50.002217] (-) TimerEvent: {}
+[50.102708] (-) TimerEvent: {}
+[50.203088] (-) TimerEvent: {}
+[50.303532] (-) TimerEvent: {}
+[50.403944] (-) TimerEvent: {}
+[50.504296] (-) TimerEvent: {}
+[50.604812] (-) TimerEvent: {}
+[50.705263] (-) TimerEvent: {}
+[50.793055] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ircNode\x1b[0m\n'}
+[50.805415] (-) TimerEvent: {}
+[50.905853] (-) TimerEvent: {}
+[51.006229] (-) TimerEvent: {}
+[51.106603] (-) TimerEvent: {}
+[51.206939] (-) TimerEvent: {}
+[51.307318] (-) TimerEvent: {}
+[51.407816] (-) TimerEvent: {}
+[51.508233] (-) TimerEvent: {}
+[51.608558] (-) TimerEvent: {}
+[51.671868] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target ircNode\n'}
+[51.685793] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[51.689074] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[51.700393] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vyom/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/vyom/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vyom'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vyom/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/vyom/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/vyom'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/vyom'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1387'), ('SYSTEMD_EXEC_PID', '1770'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4347'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vyom/ros2_ws/install:/home/vyom/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vyom'), ('JOURNAL_STREAM', '8:13812'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vyom'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/vyom/miniconda3/condabin:/home/vyom/anaconda3/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:@/tmp/.ICE-unix/1524,unix/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', 'd7c07a898d854e86b2a28d819e0c4615'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GFSSC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/vyom/turtlebot3_ws/install/turtlebot3:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_bringup:/home/vyom/turtlebot3_ws/install/turtlebot3_node:/home/vyom/turtlebot3_ws/install/turtlebot3_navigation2:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/turtlebot3_ws/install/turtlebot3_example:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs:/home/vyom/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_description:/home/vyom/turtlebot3_ws/install/turtlebot3_cartographer:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vyom/turtlebot3_ws/install/dynamixel_sdk:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vyom/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ccfbd6ba-320f-4408-b4a6-b45ea3d71a28'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vyom/ros2_ws/build/cpp_pubsub'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/vyom/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vyom/turtlebot3_ws/build/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/vyom/turtlebot3_ws/build/turtlebot3_example:/home/vyom/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/vyom/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/vyom/ros2_ws/build/py_pubsub:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/vyom/ros2_ws/build/my_launch_files:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vyom/turtlebot3_ws/install/turtlebot3:/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_bringup:/home/vyom/turtlebot3_ws/install/turtlebot3_node:/home/vyom/turtlebot3_ws/install/turtlebot3_navigation2:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/turtlebot3_ws/install/turtlebot3_msgs:/home/vyom/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_description:/home/vyom/turtlebot3_ws/install/turtlebot3_cartographer:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vyom/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vyom/turtlebot3_ws/install/dynamixel_sdk:/home/vyom/ros2_ws/install/cpp_pubsub:/home/vyom/turtlebot3_ws/install/turtlebot3_teleop:/home/vyom/turtlebot3_ws/install/turtlebot3_example:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/opt/ros/humble')]), 'shell': False}
+[51.708708] (-) TimerEvent: {}
+[51.710641] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.712545] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[51.713173] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/xbox_node\n'}
+[51.713368] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/finalNode\n'}
+[51.713478] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/tb3Node\n'}
+[51.713589] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/ps4Node\n'}
+[51.713729] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/pstryNode\n'}
+[51.713860] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/autoNode\n'}
+[51.713990] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/gpsNode\n'}
+[51.714139] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/dNode\n'}
+[51.714356] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/armNode\n'}
+[51.714501] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/ircNode\n'}
+[51.714597] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/IrcNode\n'}
+[51.714701] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/CamNode\n'}
+[51.714837] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/combine\n'}
+[51.714997] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/lidar\n'}
+[51.715378] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[51.715554] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[51.716007] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[51.716390] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[51.716562] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[51.716732] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[51.716906] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[51.717223] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[51.717428] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[51.717767] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[51.717854] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[51.729280] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[51.729528] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[51.729644] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[51.729762] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[51.731548] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[51.748272] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[51.749269] (-) EventReactorShutdown: {}

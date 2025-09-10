@@ -11,7 +11,6 @@ setup.py
 py_pubsub/EKF_localization.py
 py_pubsub/EKF_slam.py
 py_pubsub/Ground_det.py
-py_pubsub/Untitled-1.py
 py_pubsub/Untitled-2.py
 py_pubsub/Untitled-3.py
 py_pubsub/__init__.py
@@ -19,6 +18,7 @@ py_pubsub/ekf_slam_d.py
 py_pubsub/gnd_obj_det.py
 py_pubsub/gnd_try.py
 py_pubsub/m2C.py
+py_pubsub/viz_ekf_slam.py
 py_pubsub.egg-info/PKG-INFO
 py_pubsub.egg-info/SOURCES.txt
 py_pubsub.egg-info/dependency_links.txt

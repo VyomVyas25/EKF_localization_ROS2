@@ -25,6 +25,7 @@ setup(
             'm2C = py_pubsub.m2C:main',
             'gd = py_pubsub.Ground_det:main',
             'ekf_slam = py_pubsub.EKF_slam:main',
+            'viz_node_slam = py_pubsub.viz_ekf_slam:main',
             'slam_d = py_pubsub.ekf_slam_d:main',
             'binary_im = py_pubsub.gnd_obj_det:main',
 
