@@ -18,7 +18,6 @@ EKF_localization_and_SLAM_ROS2/
 |   ├── py_pubsub/py_pubsub
 |   |   ├── EKF_localization.py
 |   |   ├── m2C.py
-|   |   ├── EKF_slam.py  
 |   ├── maps
 |   ├── worlds
 |   ├── cpp_pubsub
